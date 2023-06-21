@@ -24,6 +24,6 @@ Esta é uma solução para o [Order summary card challenge on Frontend Mentor](h
 ## Author
 
 - [My linkedIn](https://www.linkedin.com/in/henriquewilliam/)
-- Frontend Mentor - [https://www.frontendmentor.io/profile/Williamhsf]
+- [My Frontend Mentor](https://www.frontendmentor.io/profile/Williamhsf)
 
-
+- [My Github](https://github.com/Williamhsf)
