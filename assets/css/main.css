@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  --Pale-blue2: hsl(225, 100%, 96%);
+  --Pale-blue: hsl(225, 100%, 94%);
+  --Very-pale-blue: hsl(225, 100%, 98%);
+  --Bright-blue: hsl(245, 75%, 52%);
+  --Desaturated-blue: hsl(224, 23%, 55%);
+  --Dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 1.6rem;
+
+  display: grid;
+  place-content: center; 
+
+}
+
+.container {
+  margin: 0 20px;
+  max-width: 35.5rem;
+  border-radius: 2.8rem;
+  overflow: hidden;
+}
+
+.top {
+  background: url(../../assets/img/illustration-hero.svg) no-repeat center;
+  width: 100%;
+  height: 22rem;
+}
+
+.container-plan {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  text-align: center;
+  background-color: var(--Very-pale-blue);
+}
+
+.container-plan h1 {
+  font-size: 2.6rem;
+  padding-top: 4rem;
+  color: var(--Dark-blue);
+  font-weight: 900;
+}
+
+.container-plan p {
+  color: var(--Desaturated-blue);
+  font-weight: 500;
+}
+
+.content-plan {
+  background-color: var(--Pale-blue2);
+
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  border-radius: 0.8rem;
+}
+
+.content-plan div h2 {
+  color: var(--Dark-blue);
+  font-weight: 900;
+  font-size: 1.8rem;
+}
+
+.content-plan div span {
+  color: var(--Desaturated-blue);
+  font-size: 1.6rem;
+}
+
+.content-plan a {
+  font-weight: 900;
+  font-size: 1.4rem;
+}
+
+.content-btn {
+  display: grid;
+  gap: 0.8rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.content-btn button {
+ margin: 0 4rem;
+ padding: 1rem;
+ font-size: 1.6rem;
+ font-weight: 700;
+ font-family: 'Red Hat Display', sans-serif;
+ border: 0;
+ background-color: var(--Bright-blue);
+ color: var(--Very-pale-blue);
+ border-radius: 0.8rem;
+}
+
+.content-btn button:hover {
+  background-color: hsl(245, 83%, 49%);
+  transition: all 0.2s ease-in-out;
+}
+.content-btn .secondary {
+  background-color: var(--Very-pale-blue);
+  color: var(--Desaturated-blue);
+  transition: all 0.2s ease-in-out;
+}
+
+.content-btn .secondary:hover {
+  background-color: var(--Pale-blue2);
+}
+
+@media (min-width: 376px) and (max-width: 1440px) {
+  body {
+    background-color: var(--Pale-blue2);
+    background-image: url(../../assets/img/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+}
